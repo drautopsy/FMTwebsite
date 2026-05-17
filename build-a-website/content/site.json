@@ -1,0 +1,370 @@
+{
+  "cases": [
+    {
+      "id": "blunt-force-brief",
+      "title": "Blunt Force Injury Pattern",
+      "topic": "Injury Interpretation",
+      "difficulty": "Foundation",
+      "time": "18 min",
+      "objective": "Differentiate impact site, patterned injury, and competing explanations.",
+      "icon": "search"
+    },
+    {
+      "id": "sharp-force-documentation",
+      "title": "Sharp Force Documentation",
+      "topic": "Injury Interpretation",
+      "difficulty": "Intermediate",
+      "time": "22 min",
+      "objective": "Describe margins, direction, and limitations without overstatement.",
+      "icon": "file"
+    },
+    {
+      "id": "asphyxia-context",
+      "title": "Asphyxial Death Context",
+      "topic": "Death Investigation",
+      "difficulty": "Intermediate",
+      "time": "24 min",
+      "objective": "Use scene context and findings to build a cautious opinion framework.",
+      "icon": "clipboard"
+    },
+    {
+      "id": "firearm-wound-principles",
+      "title": "Firearm Wound Principles",
+      "topic": "Injury Interpretation",
+      "difficulty": "Advanced",
+      "time": "27 min",
+      "objective": "Use cautious language around range, direction, and evidence correlation.",
+      "icon": "search"
+    },
+    {
+      "id": "drowning-investigation",
+      "title": "Drowning Investigation",
+      "topic": "Death Investigation",
+      "difficulty": "Advanced",
+      "time": "26 min",
+      "objective": "Separate supportive findings from non-specific postmortem changes.",
+      "icon": "search"
+    },
+    {
+      "id": "burns-scalds",
+      "title": "Burns and Scalds",
+      "topic": "Injury Interpretation",
+      "difficulty": "Intermediate",
+      "time": "20 min",
+      "objective": "Document distribution and consider timing, pattern, and history.",
+      "icon": "file"
+    },
+    {
+      "id": "road-traffic-injuries",
+      "title": "Road Traffic Injury Basics",
+      "topic": "Death Investigation",
+      "difficulty": "Foundation",
+      "time": "21 min",
+      "objective": "Connect injury distribution with reconstruction limits and evidence needs.",
+      "icon": "search"
+    },
+    {
+      "id": "sexual-offence-exam",
+      "title": "Sexual Offence Examination Principles",
+      "topic": "Clinical Forensic Medicine",
+      "difficulty": "Intermediate",
+      "time": "24 min",
+      "objective": "Apply consent, documentation, sample integrity, and trauma-informed care principles.",
+      "icon": "clipboard"
+    },
+    {
+      "id": "child-protection-indicators",
+      "title": "Child Protection Indicators",
+      "topic": "Clinical Forensic Medicine",
+      "difficulty": "Advanced",
+      "time": "26 min",
+      "objective": "Distinguish documentation duties, safeguarding signals, and limits of opinion.",
+      "icon": "book"
+    },
+    {
+      "id": "alcohol-intoxication",
+      "title": "Alcohol Intoxication Opinion",
+      "topic": "Toxicology",
+      "difficulty": "Foundation",
+      "time": "16 min",
+      "objective": "Interpret toxicology values with sampling, tolerance, and context in mind.",
+      "icon": "flask"
+    },
+    {
+      "id": "op-poisoning",
+      "title": "Organophosphorus Poisoning",
+      "topic": "Toxicology",
+      "difficulty": "Intermediate",
+      "time": "25 min",
+      "objective": "Recognize a classic toxicology pattern and plan defensible documentation.",
+      "icon": "flask"
+    },
+    {
+      "id": "carbon-monoxide",
+      "title": "Carbon Monoxide Exposure",
+      "topic": "Toxicology",
+      "difficulty": "Intermediate",
+      "time": "19 min",
+      "objective": "Assess exposure setting, sample choice, and competing causes.",
+      "icon": "flask"
+    },
+    {
+      "id": "drug-overdose",
+      "title": "Drug Overdose Review",
+      "topic": "Toxicology",
+      "difficulty": "Advanced",
+      "time": "28 min",
+      "objective": "Frame cause and manner carefully when mixed substances are reported.",
+      "icon": "flask"
+    },
+    {
+      "id": "snakebite-envenomation",
+      "title": "Snakebite and Envenomation",
+      "topic": "Toxicology",
+      "difficulty": "Foundation",
+      "time": "17 min",
+      "objective": "Connect history, clinical record, and sampling in a teaching case.",
+      "icon": "book"
+    },
+    {
+      "id": "chain-of-custody",
+      "title": "Chain of Custody Gap",
+      "topic": "Evidence Handling",
+      "difficulty": "Foundation",
+      "time": "15 min",
+      "objective": "Identify documentation gaps that affect evidence integrity.",
+      "icon": "clipboard"
+    },
+    {
+      "id": "medicolegal-report",
+      "title": "Medicolegal Report Review",
+      "topic": "Medicolegal Reporting",
+      "difficulty": "Advanced",
+      "time": "30 min",
+      "objective": "Improve opinion language, limitations, and court-ready structure.",
+      "icon": "scale"
+    }
+  ],
+  "caseDetails": [
+    {
+      "caseId": "op-poisoning",
+      "brief": "A fictional adult patient is brought to care after being found unwell near stored agricultural chemicals. The teaching focus is toxicology reasoning, sample choice, and opinion wording.",
+      "context": "The case file includes witness statements about recent access to pesticide containers, a hospital record describing cholinergic features, and delayed notification to the investigating officer.",
+      "findings": [
+        "Clinical notes describe excessive secretions, constricted pupils, and respiratory distress.",
+        "Clothing and container labels were sealed separately, but the seal numbers were not cross-referenced in the first report.",
+        "Specimens were collected after treatment had already begun, creating an interpretation limitation."
+      ],
+      "questions": [
+        "Which findings are supportive rather than diagnostic?",
+        "What sample handling details should be recorded?",
+        "How should the opinion acknowledge treatment and timing?"
+      ],
+      "interpretation": "The pattern is consistent with organophosphorus exposure, but the report should separate clinical consistency from chemical confirmation. Timing, treatment, and chain-of-custody notes affect confidence.",
+      "framework": "Opinion language should state the basis of inference, specimen limitations, and the need to correlate toxicology results with clinical and scene documentation.",
+      "points": [
+        "Avoid presenting a toxidrome as definitive proof without analytical support.",
+        "Record container seizure, labels, seal numbers, specimen type, preservative, and transfer details.",
+        "Mention therapeutic intervention as a possible influence on later biological samples."
+      ],
+      "quiz": {
+        "question": "Which statement is most defensible at the preliminary stage?",
+        "options": [
+          "The death must be certified as organophosphorus poisoning based only on scene history.",
+          "The features are consistent with organophosphorus exposure and require toxicological correlation.",
+          "Treatment records are irrelevant once a chemical container is found."
+        ],
+        "correct": 1,
+        "feedback": "Correct. A careful preliminary opinion separates consistency from confirmation and names the evidence needed for correlation."
+      }
+    },
+    {
+      "caseId": "carbon-monoxide",
+      "brief": "A fictional family reports a person found unconscious in a closed room with a faulty heater. The case teaches environmental context and toxicology interpretation.",
+      "context": "The room had poor ventilation, but the heater was moved before documentation. The teaching file includes scene photographs, witness notes, and a blood sample request.",
+      "findings": [
+        "Witnesses report headache and dizziness among others present in the same building.",
+        "Scene alteration occurred before full documentation.",
+        "A carboxyhemoglobin test was requested with timing noted on the requisition."
+      ],
+      "questions": [
+        "Which scene details strengthen the exposure hypothesis?",
+        "What should be documented when the scene is altered?",
+        "How does timing affect interpretation of carboxyhemoglobin levels?"
+      ],
+      "interpretation": "A closed-space exposure pattern supports carbon monoxide consideration. The final opinion should integrate scene, clinical, and laboratory evidence while acknowledging altered scene conditions.",
+      "framework": "Describe the basis for suspected exposure, record missing or altered scene elements, and state that toxicological confirmation is required for stronger attribution.",
+      "points": [
+        "Do not rely on a single visual finding as a diagnostic shortcut.",
+        "Record ventilation, appliances, fuel source, witness symptoms, and scene disturbance.",
+        "Use precise sample timing and analytical results in the opinion."
+      ],
+      "quiz": {
+        "question": "What is the best next documentation priority?",
+        "options": [
+          "Ignore the moved heater because witness history is enough.",
+          "Document the alteration and collect corroborating scene, clinical, and laboratory evidence.",
+          "State that all closed-room deaths are carbon monoxide exposure."
+        ],
+        "correct": 1,
+        "feedback": "Correct. Scene alteration is itself important and should be recorded alongside corroborating evidence."
+      }
+    },
+    {
+      "caseId": "chain-of-custody",
+      "brief": "A fictional toxicology sample arrives at a laboratory with a missing transfer signature. The case teaches how documentation gaps affect evidence integrity.",
+      "context": "The sample label is intact, but the transfer form has a blank receiver field and unclear time notation. The teaching focus is not blame, but defensible reporting.",
+      "findings": [
+        "Seal number on the sample matches one line in the requisition.",
+        "The receiving signature is missing on the transfer sheet.",
+        "Storage conditions were recorded only after laboratory receipt."
+      ],
+      "questions": [
+        "Which details support continuity?",
+        "Which missing elements should be flagged?",
+        "How should an expert mention the limitation without overstating it?"
+      ],
+      "interpretation": "The matching seal number supports continuity, but missing transfer documentation weakens the record. The limitation should be described plainly in any report relying on the sample.",
+      "framework": "A report can state what is documented, what is absent, and whether the gap affects confidence in identity, integrity, timing, or storage.",
+      "points": [
+        "Chain of custody is a record of accountable transfer, not just a label.",
+        "Limitations should be transparent, specific, and proportionate.",
+        "Corrective statements should avoid speculation about what happened in the gap."
+      ],
+      "quiz": {
+        "question": "Which report phrase is best?",
+        "options": [
+          "The sample is invalid because one signature is missing.",
+          "The transfer record has a missing receiver signature, which is a chain-of-custody limitation.",
+          "The sample was certainly tampered with."
+        ],
+        "correct": 1,
+        "feedback": "Correct. The phrase states the documented limitation without making unsupported conclusions."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "title": "Forensic Pathology",
+      "description": "Death investigation, injury interpretation, autopsy reasoning, and cause-of-death language.",
+      "icon": "search",
+      "tags": ["Asphyxia", "Drowning", "Burns"]
+    },
+    {
+      "title": "Clinical Forensic Medicine",
+      "description": "Documentation principles, examination logic, consent, injury recording, and limits of opinion.",
+      "icon": "clipboard",
+      "tags": ["Injury notes", "History", "Consent"]
+    },
+    {
+      "title": "Toxicology",
+      "description": "Poisoning scenarios, sample selection, analytical correlation, and cautious interpretation.",
+      "icon": "flask",
+      "tags": ["OP compounds", "CO", "Alcohol"]
+    },
+    {
+      "title": "Evidence Handling",
+      "description": "Sealing, labeling, transfer documentation, storage conditions, and continuity of evidence.",
+      "icon": "file",
+      "tags": ["Seal numbers", "Storage", "Transfer"]
+    },
+    {
+      "title": "Medical Jurisprudence",
+      "description": "Medicolegal duties, report structure, ethical boundaries, and professional communication.",
+      "icon": "scale",
+      "tags": ["Opinion", "Duty", "Limits"]
+    },
+    {
+      "title": "Expert Witness Skills",
+      "description": "Clear testimony, neutral phrasing, limitation handling, and court-ready explanations.",
+      "icon": "book",
+      "tags": ["Clarity", "Cross-exam", "Evidence"]
+    }
+  ],
+  "learningPath": [
+    {
+      "title": "Foundations",
+      "text": "Learn terms, documentation standards, case-file reading, and safe educational boundaries.",
+      "progress": "22%"
+    },
+    {
+      "title": "Injury Interpretation",
+      "text": "Practice describing injuries, recognizing patterns, and avoiding unsupported certainty.",
+      "progress": "38%"
+    },
+    {
+      "title": "Death Investigation",
+      "text": "Integrate scene, history, examination findings, and postmortem limitations.",
+      "progress": "55%"
+    },
+    {
+      "title": "Toxicology",
+      "text": "Use clinical context, sample timing, laboratory correlation, and chain of custody.",
+      "progress": "70%"
+    },
+    {
+      "title": "Documentation",
+      "text": "Build concise medicolegal reports with findings, reasoning, opinion, and limitations.",
+      "progress": "84%"
+    },
+    {
+      "title": "Courtroom Readiness",
+      "text": "Translate technical reasoning into clear, impartial expert explanations.",
+      "progress": "100%"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Autopsy Documentation Checklist",
+      "type": "Checklist",
+      "text": "A structured teaching checklist for external, internal, sample, and opinion sections.",
+      "icon": "clipboard"
+    },
+    {
+      "title": "Toxicology Sample Guide",
+      "type": "Guide",
+      "text": "Specimen type, preservative, timing, labeling, and transfer prompts for learning.",
+      "icon": "flask"
+    },
+    {
+      "title": "Injury Documentation Template",
+      "type": "Template",
+      "text": "A neutral description framework for site, size, shape, margins, and limitations.",
+      "icon": "file"
+    },
+    {
+      "title": "Medicolegal Report Outline",
+      "type": "Outline",
+      "text": "A court-friendly structure for history, findings, reasoning, opinion, and caveats.",
+      "icon": "scale"
+    },
+    {
+      "title": "Chain-of-Custody Checklist",
+      "type": "Checklist",
+      "text": "A practical sequence for seals, labels, signatures, times, and storage entries.",
+      "icon": "clipboard"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who is this site for?",
+      "a": "It is designed for medical students, forensic medicine trainees, educators, healthcare professionals, and legal learners who want structured fictional case practice."
+    },
+    {
+      "q": "Are these real cases?",
+      "a": "No. The cases are fictionalized teaching scenarios created to demonstrate reasoning patterns without exposing private or graphic material."
+    },
+    {
+      "q": "Can this replace formal training?",
+      "a": "No. It is an educational supplement and does not replace supervised forensic, clinical, legal, or laboratory training."
+    },
+    {
+      "q": "Where should a learner start?",
+      "a": "Begin with Foundations, then move through injury interpretation, death investigation, toxicology, documentation, and courtroom readiness."
+    },
+    {
+      "q": "Can educators suggest topics?",
+      "a": "Yes. The contact form is set up for topic suggestions and teaching feedback."
+    }
+  ]
+}

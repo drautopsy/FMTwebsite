@@ -1,0 +1,99 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "academy"
+        label: "Forensic Case Academy"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Cases"
+            name: "cases"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "Use lowercase letters, numbers, and hyphens. This is used in the case URL." }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Topic", name: "topic", widget: "string" }
+              - { label: "Difficulty", name: "difficulty", widget: "select", options: ["Foundation", "Intermediate", "Advanced"] }
+              - { label: "Estimated Time", name: "time", widget: "string", default: "20 min" }
+              - { label: "Learning Objective", name: "objective", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "select", options: ["book", "file", "flask", "scale", "search", "clipboard"], default: "file" }
+          - label: "Detailed Case Modules"
+            name: "caseDetails"
+            widget: "list"
+            summary: "{{fields.caseId}}"
+            fields:
+              - { label: "Case ID", name: "caseId", widget: "string", hint: "Must match a case ID above." }
+              - { label: "Case Brief", name: "brief", widget: "text" }
+              - { label: "Context", name: "context", widget: "text" }
+              - label: "Examination Findings"
+                name: "findings"
+                widget: "list"
+                field: { label: "Finding", name: "finding", widget: "text" }
+              - label: "Learner Questions"
+                name: "questions"
+                widget: "list"
+                field: { label: "Question", name: "question", widget: "string" }
+              - { label: "Interpretation Guide", name: "interpretation", widget: "text" }
+              - { label: "Opinion Framework", name: "framework", widget: "text" }
+              - label: "Teaching Points"
+                name: "points"
+                widget: "list"
+                field: { label: "Teaching Point", name: "point", widget: "text" }
+              - label: "Quiz"
+                name: "quiz"
+                widget: "object"
+                fields:
+                  - { label: "Question", name: "question", widget: "text" }
+                  - label: "Options"
+                    name: "options"
+                    widget: "list"
+                    min: 2
+                    field: { label: "Option", name: "option", widget: "string" }
+                  - { label: "Correct Option Number", name: "correct", widget: "number", value_type: "int", min: 0, hint: "Use zero-based numbering: 0 is the first option, 1 is the second option." }
+                  - { label: "Feedback", name: "feedback", widget: "text" }
+          - label: "Topics"
+            name: "topics"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "select", options: ["book", "file", "flask", "scale", "search", "clipboard"], default: "book" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+          - label: "Learning Path"
+            name: "learningPath"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Progress", name: "progress", widget: "string", hint: "Example: 55%" }
+          - label: "Resources"
+            name: "resources"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Type", name: "type", widget: "string" }
+              - { label: "Description", name: "text", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "select", options: ["book", "file", "flask", "scale", "search", "clipboard"], default: "file" }
+          - label: "FAQ"
+            name: "faqs"
+            widget: "list"
+            summary: "{{fields.q}}"
+            fields:
+              - { label: "Question", name: "q", widget: "string" }
+              - { label: "Answer", name: "a", widget: "text" }

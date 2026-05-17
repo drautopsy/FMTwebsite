@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forensic Case Academy</title>
+    <meta
+      name="description"
+      content="Case-based forensic medicine and toxicology teaching for students, trainees, educators, and legal learners."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23083f3b'/%3E%3Cpath d='M10 6h9l3 3v17H10zM19 6v4h4M13 15h6M13 20h5' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header" id="site-header">
+        <a class="brand" href="#home" aria-label="Forensic Case Academy home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" role="img">
+              <path d="M8 5h12l4 4v18H8z" />
+              <path d="M20 5v5h5" />
+              <path d="M12 15h8" />
+              <path d="M12 20h6" />
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>Forensic Case Academy</strong>
+            <small>Case-based learning for future experts</small>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="#home" data-nav="home">Home</a>
+          <a href="#cases" data-nav="cases">Cases</a>
+          <a href="#topics" data-nav="topics">Topics</a>
+          <a href="#learning-path" data-nav="learning-path">Learning Path</a>
+          <a href="#resources" data-nav="resources">Resources</a>
+          <a href="#contact" data-nav="contact">Contact</a>
+        </nav>
+        <form class="header-search" id="header-search" role="search">
+          <label class="sr-only" for="site-search">Search cases and topics</label>
+          <input id="site-search" type="search" placeholder="Search cases, topics, resources..." />
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg>
+          </button>
+        </form>
+        <button class="icon-button mobile-toggle" id="mobile-toggle" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </header>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile primary">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#cases" data-nav="cases">Cases</a>
+        <a href="#topics" data-nav="topics">Topics</a>
+        <a href="#learning-path" data-nav="learning-path">Learning Path</a>
+        <a href="#resources" data-nav="resources">Resources</a>
+        <a href="#contact" data-nav="contact">Contact</a>
+      </nav>
+      <main id="main" tabindex="-1"></main>
+      <footer class="site-footer">
+        <div>
+          <a class="footer-brand" href="#home">Forensic Case Academy</a>
+          <p>
+            Fictional case-based teaching for observation, interpretation,
+            documentation, and medicolegal reasoning.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="#cases">Cases</a>
+          <a href="#topics">Topics</a>
+          <a href="#resources">Resources</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <p class="disclaimer">
+          All cases are fictional teaching scenarios for education only. This
+          website is not medical advice, legal advice, emergency guidance, or
+          forensic consultation.
+        </p>
+      </footer>
+    </div>
+    <script>
+      if (
+        (location.protocol === "https:" || location.protocol === "http:") &&
+        !["localhost", "127.0.0.1"].includes(location.hostname)
+      ) {
+        const identityScript = document.createElement("script");
+        identityScript.src = "https://identity.netlify.com/v1/netlify-identity-widget.js";
+        identityScript.onload = () => {
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+              if (!user && location.hash.includes("_token=")) {
+                window.netlifyIdentity.open();
+              }
+            });
+          }
+        };
+        document.body.appendChild(identityScript);
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
